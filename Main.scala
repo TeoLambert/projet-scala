@@ -206,8 +206,7 @@ object Canvas {
         Status(
           error = true,
           message =
-            s"La commande new_canvas attend 3 arguments. Or vous en avez donné ${arguments.size}. 
-            Voici un exemple de commande valide: new_canvas 10 10 ."
+            s"La commande new_canvas attend 3 arguments. Or vous en avez donné ${arguments.size}. Voici un exemple de commande valide: new_canvas 10 10 ."
         )
       )
     else {
